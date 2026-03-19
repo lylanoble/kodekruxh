@@ -1516,12 +1516,12 @@
             return n.ready = function() {
                 var n, r, a, f = o.attr("data-wf-status"), p = o.attr("data-wf-domain") || "";
                 /\.webflow\.io$/i.test(p) && s.hostname !== p && (f = !0),
-                f && !l && (t = t || (n = e('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs"),
-                r = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon-d2.89e12c322e.svg").attr("alt", "").css({
+                f && !l && (t = t || (n = e('<a class="w-webflow-badge"></a>').attr("href", "#"),
+                r = e("<img>").attr("src", "").attr("alt", "").css({
                     marginRight: "4px",
                     width: "26px"
                 }),
-                a = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-text-d2.c82cec3b78.svg").attr("alt", "Made in Webflow"),
+                a = e("<img>").attr("src", "").attr("alt", ""),
                 n.append(r, a),
                 n[0]),
                 d(),
