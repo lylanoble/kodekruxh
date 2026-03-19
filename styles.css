@@ -4875,40 +4875,12 @@ blockquote {
   width: 95px;
 }
 
-.template-navigator-dropdown-toggle {
-  grid-column-gap: 4px;
-  grid-row-gap: 4px;
-  opacity: 1;
-  color: #fff;
-  letter-spacing: -.6px;
-  border: 1px solid #ffffff45;
-  border-radius: 5px;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 7px 9px;
-  font-weight: 500;
-  display: flex;
-}
-
-.template-navigator-dropdown-toggle:hover {
-  background-color: #222;
-}
-
-.template-navigator-dropdowns {
-  display: flex;
-}
-
 .template-image {
   object-fit: cover;
   border: 1px solid #00000012;
   border-radius: 5px;
   width: 100%;
   height: auto;
-}
-
-.template-navigator-dropdown-list {
-  background-color: #ddd0;
-  bottom: 100%;
 }
 
 .showcase-grid {
@@ -4951,32 +4923,6 @@ blockquote {
   position: relative;
   top: -2px;
   left: -3px;
-}
-
-.template-navigator {
-  z-index: 9997;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  color: #fff;
-  background-color: #242424;
-  border-radius: 5px;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 10px 8px 8px;
-  display: flex;
-  position: fixed;
-  inset: auto auto 15px 15px;
-}
-
-.template-navigator-pages-wrap {
-  background-color: #242424;
-  border-radius: 5px;
-  width: 900px;
-  min-height: 323px;
-  padding: 15px;
-  position: relative;
-  bottom: 13px;
-  left: -6px;
 }
 
 @media screen and (min-width: 1920px) {
@@ -5456,10 +5402,6 @@ blockquote {
 
   .logo-image._01 {
     width: 75px;
-  }
-
-  .template-navigator {
-    display: none;
   }
 }
 
