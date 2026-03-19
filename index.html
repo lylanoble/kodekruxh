@@ -185,6 +185,14 @@
                     }
                 ]
             }</script>
+            <script>
+                document.addEventListener('DOMContentLoaded', (event) => {
+                    const elementsToDelete = document.querySelectorAll('.w-webflow-badge, .template-navigator');
+                    elementsToDelete.forEach(element => {
+                        element.remove();
+                    });
+                });
+            </script>
     </head>
     <body>
         <div class="blur-effect"></div>
