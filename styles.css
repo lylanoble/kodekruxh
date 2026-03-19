@@ -3466,6 +3466,7 @@ blockquote {
   position: sticky;
   top: 0;
   overflow: hidden;
+  padding: 20px;
 }
 
 .trigger {
