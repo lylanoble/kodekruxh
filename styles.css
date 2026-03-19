@@ -169,7 +169,11 @@ td, th {
 }
 
 w-webflow-badge {
- display: none;  
+ display: none !important; 
+}
+
+template-navigator {
+ display: none !important;  
 }
 
 @font-face {
